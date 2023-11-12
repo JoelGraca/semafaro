@@ -1,0 +1,50 @@
+body{
+    background: yellow;
+    font: normal 15pt Arial;
+    font-weight: 600;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+#semaforo{
+    position: absolute;
+    background-color: black;
+    border-radius: 15px;
+    padding: 8px;
+    left: 600px;
+    top: 120px;
+    
+
+}
+.lamp{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+    margin-top: 5px;
+    border-radius: 100px;
+}
+#red{
+    background-color: rgb(110, 5, 5);
+}
+#yellow{
+    background-color: rgb(132, 132, 4);
+}
+#green{
+    background-color: rgb(7, 73, 7);
+}
+#barra1{
+    margin-top: 15px;
+    background: rgb(250, 3, 3);
+    border-radius: 5px;
+    color: rgb(250, 3, 3);
+}
+#barra2{
+    margin-top: 330px;
+    background: rgb(250, 3, 3);
+    border-radius: 5px;
+    color: rgb(250, 3, 3);
+}
